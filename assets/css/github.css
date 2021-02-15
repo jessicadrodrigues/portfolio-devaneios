@@ -1,0 +1,47 @@
+section.github{
+    max-width:100%;
+    height: 100vh;
+    }
+section.github .header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align:center;
+    color:#E0A80D;
+    font-size:22px;
+    border-bottom: 2px solid #3a3b3b;
+}
+section.github .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+section.github .container .git p{
+    color:#E0A80D;
+    font-size:16px;
+}
+section.github .container .git img{
+    padding-top:60px;
+    padding-left:50px;
+    border-radius: 27px;
+  
+}
+section.github .container .repositorios{
+    padding-left:100px;
+    line-height: 25px;
+    color:#fff;
+}
+section.github .container .repositorios ul{
+    list-style: none;
+    background-color: #3a3b3b;
+    line-height: 40px;
+    border-radius: 5px;
+    display:flex;
+    margin-bottom:16px;
+    padding:0;
+}
+section.github .container .repositorios ul li{
+    width:700px;
+    align-items: center;
+    text-align:center;
+}

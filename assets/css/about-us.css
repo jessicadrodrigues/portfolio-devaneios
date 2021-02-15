@@ -1,0 +1,22 @@
+section.about-us .container{
+    display:flex;
+    align-items: center;
+    height:100vh;   
+}
+
+section.about-us .about-us{
+    padding:50px;
+}
+section.about-us .about-us h2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align:center;
+    color:#E0A80D;
+    font-size:22px;
+}
+section.about-us .about-us p{
+    color:#fff;
+    font-size:16px;
+    line-height:25px;
+    text-align:justify;
+}

@@ -1,0 +1,27 @@
+section.portfolio .container{
+    height:100vh;  
+    max-width:100%;
+    
+}
+section.portfolio .container .header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align:center;
+    color:#E0A80D;
+    font-size:22px;
+    border-bottom: 2px solid #3a3b3b;
+}
+section.portfolio .container .main{
+    padding-top:100px;
+    display: flex;
+}
+section.portfolio .container .main{
+    width:100%;
+}
+section.portfolio .container .main .miniatura{
+    padding: 15px 15px 7px;
+    width: calc(100% / 3);
+}
+section.portfolio .container .main .miniatura img{
+    width: 100%;
+}
