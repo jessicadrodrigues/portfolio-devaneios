@@ -1,6 +1,7 @@
 
 header{
     border-bottom: 2px solid #3a3b3b;
+    background-color: #102;
 }
 header .container{
     display:flex;
@@ -19,11 +20,11 @@ header .menu ul{
 header .menu ul a{
     text-decoration: none;
     font-weight:500;
-    color:#fff;
+    color:#bb9fbd;
     font-size:16px;
 }
 header .menu ul a:hover{
-    color:#919494;
+    color:#a558ac;
 }
 header .menu ul a:visited{
     color:#fff;

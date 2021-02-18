@@ -2,7 +2,42 @@ section.banner{
     height:calc(100vh - 100px);
 }
 section.banner img{
-    width:100%;
-    height:100%;
-    object-fit: cover;
+    width: 50px;
+    
 }
+section.banner .banner{
+    background-image: url(../image/banner01.jpg);
+    object-fit: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    opacity: 0.8;
+    padding: 30px;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section.banner .banner .information{
+    text-align: center;
+    
+}
+section.banner .banner .information h1{
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+section.banner .banner .information p{
+    font-family: 'Sen', sans-serif;
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+    /*border-bottom: 2px solid #5a4057;*/
+
+}
+section.banner .banner .information .icons{
+    margin-top: 10px;
+}
+

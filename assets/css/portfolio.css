@@ -1,15 +1,19 @@
+section.portfolio{
+    background-color: #3a3b3b;
+}
 section.portfolio .container{
     height:100vh;  
     max-width:100%;
     
 }
 section.portfolio .container .header{
+    width:100%;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align:center;
-    color:#E0A80D;
-    font-size:22px;
-    border-bottom: 2px solid #3a3b3b;
+    color:#bb9fbd;
+    font-size:18px;
+    border-bottom: 2px solid #5a4057;
 }
 section.portfolio .container .main{
     padding-top:100px;
@@ -24,4 +28,5 @@ section.portfolio .container .main .miniatura{
 }
 section.portfolio .container .main .miniatura img{
     width: 100%;
+    border-radius: 10px;
 }
